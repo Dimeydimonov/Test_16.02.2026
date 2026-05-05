@@ -16,7 +16,7 @@ Repository Pattern - Abstracted data layer supporting multiple data sources
 PSR-4 Autoloading- Modern PHP autoloading standards
 Interface-Driven Design - Flexible and extensible architecture
 JSON Data Source - File-based data storage with easy extensibility
-Template Engine- Simple PHP template rendering system
+Template Engine - Simple PHP template rendering system
 Dependency Injection - Loose coupling between components
 
 Architecture Principles
@@ -32,7 +32,7 @@ Model + View + Config       ← Core components
 
 Design Patterns Implemented
 Repository Pattern- Encapsulates data access logic
-Dependency Injection- Injects dependencies via constructor
+Dependency Injection - Injects dependencies via constructor
 Interface Segregation- DataProviderInterface for flexibility
 Single Responsibility - Each class has one clear purpose
 Open/Closed Principle - Extensible without modification
@@ -209,13 +209,13 @@ return [
 Features & Functionality
 
 Model Display System
-Card-based Layout- Responsive model cards 
+Card-based Layout - Responsive model cards 
 Pagination Support - Configurable display limits
 Data Validation - Type-safe model properties 
-Error Handling- Graceful error management
+Error Handling - Graceful error management
 
 Extensibility Features 
-Multiple Data Sources- Easy to add DB, API, CSV providers 
+Multiple Data Sources - Easy to add DB, API, CSV providers 
 Template Flexibility- Modular template system 
 Configuration Management- Centralized app settings 
 Service Extensibility- Easy to add new business logic
@@ -297,7 +297,7 @@ bash
  Composer validation
 composer validate
 
-#Autoload optimization
+Autoload optimization
 composer dump-autoload --optimize
 
 Development dependencies
@@ -346,7 +346,7 @@ Scalability Easy to extend and modify
 Flexibility - Interface-driven design allows easy swapping
 
 Production Readiness
-Error Handling- Graceful degradation
+Error Handling - Graceful degradation
 Configuration - Environment-based settings
 Autoloading- Industry-standard PSR-4
 Documentation - Comprehensive code documentation
@@ -358,7 +358,7 @@ OOP Principles - Encapsulation, Inheritance, Polymorphism
 Design Patterns - Repository, Dependency Injection
 SOLID Principles- Professional development standards
 Clean Architecture- Maintainable code organization
-PSR Standards- PHP community best practices
+PSR Standards - PHP community best practices
 
 License
 
